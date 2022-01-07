@@ -1,41 +1,29 @@
-body {
-  color: #00ff00 ;
-  background-image: url("metal.jpg");
-  font-family: 'Courier New', Courier, monospace;
-  background-size: 100% 100%;
-}
+
 
 // code {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
 // }
 
-
-h1 {
+.screen {
+  
   background-color: black;
   border-style: solid;
   border-width: 3px;
   border-color: #00ff00;
 }
 
-h2,h3 {
-
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
-}
 
 
 
-
-.Card {
-  // width: 40px;
-  // height: 40px;
-  // border:1px solid black;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
-}
+// .Card {
+//   // width: 40px;
+//   // height: 40px;
+//   // border:1px solid black;
+//   border-style: solid;
+//   border-width: 3px;
+//   border-color: #00ff00;
+// }
 
 .Square{
   width: 40px;
@@ -61,8 +49,8 @@ h2,h3 {
   padding: 25px;
   display: flex;
   // color: #00ff00 ;
-  // // background-color: pink;
-
+  background-color: pink;
+  // background-color: $myGreen;
   // border-style: solid;
   // border-width: 3px;
 
@@ -89,6 +77,7 @@ h2,h3 {
   background-color: aqua;
 }
 
+
 .messagesBoard {
   // width: 40px;
   height: 200px;
@@ -98,41 +87,41 @@ h2,h3 {
   border-color: #00ff00;
 }
 
-.game {
-  border-color: grey;
-  // margin: auto;
-  // align-items: center;
-    // display: flex;
-  // justify-content: center;
-  .game-board {
-    // height: 80px;
-    // height: 40px;
-    // margin: auto;
-    // align-items: center;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // align-content: center;
-    .board-row {
-      display: flex;
+// .game {
+//   border-color: grey;
+//   // margin: auto;
+//   // align-items: center;
+//     // display: flex;
+//   // justify-content: center;
+//   .game-board {
+//     // height: 80px;
+//     // height: 40px;
+//     // margin: auto;
+//     // align-items: center;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // align-content: center;
+//     .board-row {
+//       display: flex;
 
-      .board-square {
-        color: #00ff00 ;
-        // background-color: black;
+//       .board-square {
+//         color: #00ff00 ;
+//         // background-color: black;
 
-        border-style: solid;
-        border-width: 3px;
+//         border-style: solid;
+//         border-width: 3px;
 
-        // border:1px solid black;
-        height: 50px;
-        width: 50px;
-        // background-color: red;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        // color:white;
-        font-size: 1.5em;
-      }
-    }
-  }
-}
+//         // border:1px solid black;
+//         height: 50px;
+//         width: 50px;
+//         // background-color: red;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         // color:white;
+//         font-size: 1.5em;
+//       }
+//     }
+//   }
+// }

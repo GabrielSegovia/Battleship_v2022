@@ -1,21 +1,25 @@
 body {
-  color: #00ff00;
+  color: #00ff00 ;
+  // background-image: url("metal.jpg");
   font-family: 'Courier New', Courier, monospace;
   background-size: 100% 100%;
 }
 
+// .Menu {
+//   text-align: center;
+// }
+
+
 h1 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
+  // background-color: black;
   width: fit-content;
   border-style: solid;
   border-width: 3px;
   border-color: #00ff00;
 }
 
-h2, h3, ul {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
+h2,h3, ul {
+  // margin: auto;
   width: fit-content;
   border-style: solid;
   border-width: 3px;
@@ -26,16 +30,15 @@ nav {
   /* width:128px; */
   /* height:800px; */
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #00ff00;
+  align-items: center;
+  justify-content: center;
+  
+  color: #00ff00 ;
+  // background-color: black;
   border-color: grey;
   border-style: solid;
   border-width: 3px;
+  // padding: 0%;
   width: 80%;
   /* height: 100%; */
 }
@@ -53,11 +56,13 @@ nav {
   /* background-color: red; */
 }
 
+
 .row {
   /* background-color: lightgray; */
   /* min-height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
+
   /* font-size: calc(10px + 2vmin);
   color: white; */
   /* border-color: lightgreen;
@@ -67,8 +72,12 @@ nav {
 
 .flotte,
 .messages,
+/* .leftView,
+.rightView,
+.frontView, */
+
 .attaque {
-  color: #00ff00;
+  color: #00ff00 ;
   background-color: black;
   border-color: grey;
   border-style: solid;
@@ -76,17 +85,20 @@ nav {
   /* margin: auto; */
 }
 
+
 .attaque {
   cursor: crosshair;
   /* cursor-color: pink */
-  caret-color: #00ff00;
+  caret-color: #00ff00 ;
 }
 
 .marina {
   width: 50px;
 }
 
-.chatBox {
+
+
+.chatBox{
   border-style: solid;
   border-width: 3px;
   border-color: #00ff00;
@@ -106,7 +118,7 @@ nav {
 .frontView {
   /* width:128px; */
   /* height:800px; */
-  color: #00ff00;
+  color: #00ff00 ;
   /* background-color: black; */
   border-color: grey;
   border-style: solid;
@@ -116,12 +128,43 @@ nav {
   /* height: 100%; */
 }
 
+// .window {
+//   /* width:128px; */
+//   /* height:800px; */
+//   color: #00ff00 ;
+//   /* background-color: black; */
+//   border-color: grey;
+//   border-style: solid;
+//   border-width: 3px;
+//   padding: 0%;
+//   /* width: 100%; */
+//   /* height: 100%; */
+
+//   /* width:800px; */
+//   /* height:800px; */
+//   /* color: #00ff00 ; */
+//   /* background-color: black; */
+//   /* border-color: grey;
+//   border-style: solid;
+//   border-width: 3px;
+//   padding: 0%; */
+//   /* width: 100%; */
+//   /* height: 100%; */}
+
+
 .speed,
-.wheel {
+.wheel{
   width: 100%;
   height: 100%;
   margin: auto;
 }
+
+
+
+
+
+
+
 
 /* .App-link {
   color: #61dafb;
@@ -135,4 +178,3 @@ nav {
     transform: rotate(360deg);
   }
 } */
-/*# sourceMappingURL=App.css.map */

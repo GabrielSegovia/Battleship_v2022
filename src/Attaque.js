@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./index.scss";
+import "./Attaque.css";
 
 function Square({ value, click }) {
   return (
@@ -29,11 +29,11 @@ function Game() {
   }
 
   return (
-    <div className="container">
+    <div className="game">
       <br></br>
       <h3>Attaque</h3>
       <br></br>
-      <div className="game">
+      <div className="">
         <div className="game-board">
           <div className="board-row">
             {fabriqueSquare(0)}

@@ -6,7 +6,7 @@ import "./index.scss";
 import { useDrag, useDrop } from "react-dnd";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import porteAvion from'./porteAvion.png';
+// import porteAvion from'./porteAvion.png';
 
 function Card({ isDragging, color }) {
   const [{ opacity }, dragRef] = useDrag(
@@ -29,7 +29,8 @@ function Card({ isDragging, color }) {
       className={"Card"}
     >
       {/* <img src={porteAvion} className="marina" alt="boatLeftView" /> */}
-      {color} //écrire couleur dans la casse
+      {color} 
+      {/*écrire couleur dans la casse*/}
       
     </div>
     
