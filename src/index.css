@@ -1,0 +1,98 @@
+body {
+  color: #00ff00;
+  background-image: url("metal.jpg");
+  font-family: 'Courier New', Courier, monospace;
+  background-size: 100% 100%;
+}
+
+h1 {
+  background-color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00ff00;
+}
+
+h2, h3 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00ff00;
+}
+
+.Card {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00ff00;
+}
+
+.Square {
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00ff00;
+}
+
+.click {
+  border: 3px solid pink  !important;
+}
+
+.App {
+  max-width: 1024px;
+  margin: auto;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .Peintures {
+  margin: auto;
+}
+
+.App .Board {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.AUTRE {
+  width: 40px;
+  height: 40px;
+  background-color: aqua;
+}
+
+.messagesBoard {
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00ff00;
+}
+
+.game {
+  border-color: grey;
+}
+
+.game .game-board .board-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game .game-board .board-row .board-square {
+  color: #00ff00;
+  border-style: solid;
+  border-width: 3px;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=index.css.map */
