@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import "../Menu.css";
 
 export default function Menu () {
     return (
@@ -20,13 +21,13 @@ export default function Menu () {
             drcre8ion.com
           </li> */}
           {/* <li> */}
-            <Link to="/">Accueil</Link>
+            <div className="link"><Link to="/">Accueil</Link></div>
           {/* </li> */}
           {/* <li> */}
-            <Link to="/jeu">Jouer</Link>
+          <div className="link"><Link to="/jeu">Jouer</Link></div>
           {/* </li> */}
           {/* <li> */}
-            <Link to="/login">Connection</Link>
+          <div className="link"><Link to="/login">Connection</Link></div>
           {/* </li> */}
           {/* <li>
             <Link to="/login">Connection</Link>
