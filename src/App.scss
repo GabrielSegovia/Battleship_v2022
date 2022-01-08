@@ -1,148 +1,27 @@
-body {
-  color: #00ff00 ;
-  // background-image: url("metal.jpg");
-  font-family: 'Courier New', Courier, monospace;
-  background-size: 100% 100%;
-}
+// @import 'colors';
 
-// .Menu {
-//   text-align: center;
+
+// .marina {
+//   width: 50px;
 // }
 
 
-h1 {
-  // background-color: black;
-  width: fit-content;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
-}
 
-h2,h3, ul {
-  // margin: auto;
-  width: fit-content;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
-}
-
-
-
-.container {
-  text-align: center;
-  /* margin: auto; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* border-color: darkgray;
-  border-style: solid;
-  border-width: 3px; */
-  /* margin-top: 10px; */
-  /* background-color: darkorange; */
-  /* background-color: red; */
-}
-
-
-.row {
-  /* background-color: lightgray; */
-  /* min-height: 100vh; */
-  /* display: flex; */
-  /* flex-direction: column; */
-
-  /* font-size: calc(10px + 2vmin);
-  color: white; */
-  /* border-color: lightgreen;
-  border-style: solid;
-  border-width: 3px; */
-}
-
-.flotte,
-.messages,
-/* .leftView,
-.rightView,
-.frontView, */
-
-.attaque {
-  color: #00ff00 ;
-  background-color: black;
-  border-color: grey;
-  border-style: solid;
-  border-width: 3px;
-  /* margin: auto; */
-}
-
-
-.attaque {
-  cursor: crosshair;
-  /* cursor-color: pink */
-  caret-color: #00ff00 ;
-}
-
-.marina {
-  width: 50px;
-}
-
-
-
-.chatBox{
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
-}
-
-.frontView {
-  /* height: 300px; */
-}
-
-.topScreen {
-  height: auto;
-  /* height: 175px; */
-}
-
-.rightView,
-.leftView,
-.frontView {
-  /* width:128px; */
-  /* height:800px; */
-  color: #00ff00 ;
-  /* background-color: black; */
-  border-color: grey;
-  border-style: solid;
-  border-width: 3px;
-  padding: 0%;
-  /* width: 100%; */
-  /* height: 100%; */
-}
-
-// .window {
-//   /* width:128px; */
-//   /* height:800px; */
-//   color: #00ff00 ;
-//   /* background-color: black; */
-//   border-color: grey;
+// .chatBox{
 //   border-style: solid;
 //   border-width: 3px;
-//   padding: 0%;
-//   /* width: 100%; */
-//   /* height: 100%; */
+//   border-color: #00ff00;
+// }
 
-//   /* width:800px; */
-//   /* height:800px; */
-//   /* color: #00ff00 ; */
-//   /* background-color: black; */
-//   /* border-color: grey;
-//   border-style: solid;
-//   border-width: 3px;
-//   padding: 0%; */
-//   /* width: 100%; */
-//   /* height: 100%; */}
+// .frontView {
+//   /* height: 300px; */
+// }
 
+// .topScreen {
+//   height: auto;
+//   /* height: 175px; */
+// }
 
-.speed,
-.wheel{
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
 
 
 

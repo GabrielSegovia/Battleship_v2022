@@ -10,6 +10,7 @@ import speed from'./speed.png';
 // import Attaque from "Attaque.js"
 // import Game from "Attaque.js"
 import './App.css';
+import './Jeu.css';
 
 function Jeu() {
   return (

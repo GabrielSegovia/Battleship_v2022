@@ -1,5 +1,6 @@
 .game {
-  border-color: grey;
+  cursor: crosshair;
+  caret-color: #00ff00;
 }
 
 .game .game-board .board-row {
@@ -9,11 +10,10 @@
 }
 
 .game .game-board .board-row .board-square {
-  color: #00ff00;
   border-style: solid;
   border-width: 3px;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

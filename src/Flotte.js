@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './Flotte.css';
 
 import React, { useState } from "react";
 import "./index.scss";

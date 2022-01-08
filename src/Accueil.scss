@@ -1,0 +1,40 @@
+@import "colors";
+@import "borders";
+
+
+.accueil {
+  // opacity: 0.6;
+  /* width:128px; */
+  /* height:800px; */
+  text-align: center;
+  // align-items: center;
+  // justify-content: center;
+  background-image: url("passerelle.jpg");
+  background-size: cover;
+  background-position: center;
+  // color: #00ff00 ;
+  // background-color: violet;
+  border-color: $myScreenGrey;
+  border-style: $myTextBoxStyle;
+  border-width: $myTextBoxWidth;
+  // padding: 0%;
+  width: 80%;
+  /* height: 100%; */
+  margin: auto;
+}
+
+.textboxaccueil {
+  opacity:0.3;
+  background-color: white;
+
+  border-style: $myTextBoxStyle;
+  border-width: $myTextBoxWidth;
+  border-color: $myRadarGreen;
+  margin: $myTextBoxMargin;
+}
+
+.h1Accueil {
+  color: $myRadarGreen;
+  opacity: 1;
+  background-color: yellow;
+}

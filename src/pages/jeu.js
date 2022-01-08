@@ -9,16 +9,18 @@ import wheel from'../wheel.png';
 import speed from'../speed.png';
 // import Attaque from "Attaque.js"
 // import Game from "Attaque.js"
-import '../App.css';
+import '../Jeu.css';
+
 
 function Jeu() {
   return (
-    <div className="container">
+    //CONTAINER
+    <div className="container"> 
       <br></br>
-      <h1>Bataille navale</h1>
+      {/* <h1>Bataille navale</h1> */}
       <br></br>
       <div className="row topScreen">
-          <div className="messages col col-3">
+          <div className="screen col col-3">
             <br></br>
 
                 <h3>Messages</h3>
@@ -38,7 +40,7 @@ function Jeu() {
           <img src={frontView} className="frontView col col-6" alt="boatFrontView" />
           {/* <img src="metal.jpg" className="frontView col col-6" alt="boatFrontView" /> */}
 
-          <div className="attaque col col-3">
+          <div className="screen col col-3">
             <Attaque />
           </div>
       </div>
@@ -49,12 +51,17 @@ function Jeu() {
 
           <img src={leftView} className="leftView col col-3" alt="boatLeftView" />
           
-          <div className="flotte col col-6">
+          <div className="screen col col-6">
             <br></br>
+            <div className='textBox'>
             <h2>Flotte Navale</h2>
             <br></br>
+            {/* <div className="screen"> */}
             <Flotte />
-            
+            {/* </div>        */}
+            </div>
+            <br></br>
+
             <div className="row">
               <img src={wheel} className="wheel col col-6" alt="Wheel" />
               {/* <div className="chatBox col col-8">
@@ -62,6 +69,7 @@ function Jeu() {
               </div> */}
               <img src={speed} className="speed col col-6" alt="SpeedHandle" />
             </div>
+
             <br></br>
 
           </div>

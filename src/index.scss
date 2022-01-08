@@ -1,38 +1,48 @@
-
+@import "colors";
+@import "borders";
 
 // code {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
 // }
 
+body {
+  color: #00ff00 ;
+  background-image: url("metal.jpg");
+  font-family: 'Courier New', Courier, monospace;
+  background-size: 100% 100%;
+}
+
 .screen {
-  
-  background-color: black;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
+  // justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  // margin: auto;
+  // padding: auto;
+
+  // align-items: center;
+  background-color: $myScreenBlack;
+  border-style: $myScreenBorderStyle;
+  border-width: $myScreenBorderWidth;
+  border-color: $myScreenGrey;
 }
 
+h1 {
 
-
-
-// .Card {
-//   // width: 40px;
-//   // height: 40px;
-//   // border:1px solid black;
-//   border-style: solid;
-//   border-width: 3px;
-//   border-color: #00ff00;
-// }
-
-.Square{
-  width: 40px;
-  height: 40px;
-  // border:1px solid #00ff00;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #00ff00;
 }
+
+h2,h3, ul {
+
+}
+
+.textBox {
+  border-style: $myTextBoxStyle;
+  border-width: $myTextBoxWidth;
+  border-color: $myRadarGreen;
+  margin: $myTextBoxMargin;
+}
+
 
 .click {
   border:3px solid pink  !important;
@@ -43,39 +53,6 @@
   // border-width: 3px;
 }
 
-.App {
-  max-width: 1024px;
-  margin: auto;
-  padding: 25px;
-  display: flex;
-  // color: #00ff00 ;
-  background-color: pink;
-  // background-color: $myGreen;
-  // border-style: solid;
-  // border-width: 3px;
-
-  .Peintures {
-    // border-style: solid;
-    // border-width: 3px;
-    // border-color: #00ff00;
-    margin: auto;
-    // flex:1;
-
-  }
-
-  .Board {
-    flex:2;
-    // border-style: solid;
-    // border-width: 3px;
-    // border-color: #00ff00;
-  }
-}
-
-.AUTRE {
-  width: 40px;
-  height: 40px;
-  background-color: aqua;
-}
 
 
 .messagesBoard {
@@ -87,41 +64,3 @@
   border-color: #00ff00;
 }
 
-// .game {
-//   border-color: grey;
-//   // margin: auto;
-//   // align-items: center;
-//     // display: flex;
-//   // justify-content: center;
-//   .game-board {
-//     // height: 80px;
-//     // height: 40px;
-//     // margin: auto;
-//     // align-items: center;
-//     // display: flex;
-//     // align-items: center;
-//     // justify-content: center;
-//     // align-content: center;
-//     .board-row {
-//       display: flex;
-
-//       .board-square {
-//         color: #00ff00 ;
-//         // background-color: black;
-
-//         border-style: solid;
-//         border-width: 3px;
-
-//         // border:1px solid black;
-//         height: 50px;
-//         width: 50px;
-//         // background-color: red;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         // color:white;
-//         font-size: 1.5em;
-//       }
-//     }
-//   }
-// }

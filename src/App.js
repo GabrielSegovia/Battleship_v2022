@@ -7,7 +7,7 @@ import React from "react";
 // import defaultExport from 'module'
 import Jeu from './pages/jeu.js';
 import Menu from './pages/menu.js';
-import Accueil from './pages/accueil';
+import Accueil from './pages/accueil.js';
 
 function App() {
   return (

@@ -1,0 +1,31 @@
+@import "colors";
+@import "borders";
+
+
+.container {
+  // background-color: gold;
+  // text-align: center;
+}
+
+.speed,
+.wheel{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.rightView,
+.leftView,
+.frontView {
+  /* width:128px; */
+  /* height:800px; */
+  // color: #00ff00 ;
+  /* background-color: black; */
+  border-color: $myScreenGrey;
+  border-style: $myScreenBorderStyle;
+  border-width: $myScreenBorderWidth;
+  padding: 0%;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+

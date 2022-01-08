@@ -1,0 +1,46 @@
+@import "colors";
+@import "borders";
+
+.Square{
+  width: 40px;
+  height: 40px;
+  border-style: $myTextBoxStyle;
+  border-width: $myTextBoxWidth;
+  border-color: $myRadarGreen;
+}
+
+.App {
+  // max-width: 1024px;
+  // margin: auto;
+  padding: 25px;
+  display: flex;
+  // color: #00ff00 ;
+  // background-color: magenta;
+  // background-color: $myGreen;
+  // border-style: solid;
+  // border-width: 3px;
+
+  .Peintures {
+    // background-color: maroon;
+    // border-style: solid;
+    // border-width: 3px;
+    // border-color: #00ff00;
+    margin: auto;
+    // flex:1;
+
+  }
+
+  .Board {
+    flex:2;
+    // background-color: maroon;
+    // border-style: solid;
+    // border-width: 3px;
+    // border-color: #00ff00;
+  }
+}
+
+// .AUTRE {
+//   width: 40px;
+//   height: 40px;
+//   background-color: aqua;
+// }
