@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
-import './Flotte.css';
+import '../Flotte.css';
+import "../index.css";
 
 import React, { useState } from "react";
-import "./index.scss";
 import { useDrag, useDrop } from "react-dnd";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";

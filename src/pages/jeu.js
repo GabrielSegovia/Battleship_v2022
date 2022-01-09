@@ -1,6 +1,6 @@
-import Flotte from '../Flotte.js';
-import Attaque from '../Attaque.js';
-import "../index.scss";
+import Flotte from '../components/Flotte.js';
+import Attaque from '../components/Attaque.js';
+
 import React from "react";
 import frontView from'../frontView.jpg';
 import leftView from'../leftView.jpg';
@@ -9,6 +9,7 @@ import wheel from'../wheel.png';
 import speed from'../speed.png';
 // import Attaque from "Attaque.js"
 // import Game from "Attaque.js"
+import "../index.css";
 import '../Jeu.css';
 
 
@@ -61,22 +62,18 @@ function Jeu() {
             {/* </div>        */}
             </div>
             <br></br>
+            <br></br>
+          </div>
 
-            <div className="row">
+
+
+          <div className="row">
               <img src={wheel} className="wheel col col-6" alt="Wheel" />
               {/* <div className="chatBox col col-8">
               <p> Boite de Conversation: Écrire les messages ici! </p>
               </div> */}
               <img src={speed} className="speed col col-6" alt="SpeedHandle" />
             </div>
-
-            <br></br>
-
-          </div>
-
-
-
-          
           <img src={rightView} className="rightView col col-3" alt="boatRightView" />
       
       </div>
