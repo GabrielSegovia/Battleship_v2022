@@ -1,5 +1,6 @@
 @import "colors";
 @import "borders";
+// @import "index";
 
 // .attaque {
 //   cursor: crosshair;
@@ -8,8 +9,7 @@
 // }
 
 .game {
-  cursor: crosshair;
-  caret-color: $myScreenGreen; //PK MARCHE PAS??
+  // caret-color: $myRadarGreen; //PK MARCHE PAS??
   
   // border-color: grey;
   // margin: auto;
@@ -21,6 +21,9 @@
     // height: 40px;
     // margin: auto;
     // align-items: center;
+    cursor: crosshair;
+    // cursor-color: red;
+    caret-color: $myRadarGreen;
     // display: flex;
     // align-items: center;
     // justify-content: center;

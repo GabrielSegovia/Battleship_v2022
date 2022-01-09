@@ -19,7 +19,7 @@ function Jeu() {
       <br></br>
       {/* <h1>Bataille navale</h1> */}
       <br></br>
-      <div className="row topScreen">
+      <div className="row ">
           <div className="screen col col-3">
             <br></br>
 
