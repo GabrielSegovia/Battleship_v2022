@@ -18,7 +18,7 @@ function Jeu() {
     //CONTAINER
     <div className="container"> 
       <br></br>
-      {/* <h1>Bataille navale</h1> */}
+      <h1>Bataille navale</h1>
       <br></br>
       <div className="row ">
           <div className="screen col col-3">
@@ -50,34 +50,36 @@ function Jeu() {
 
       <div className="row">
 
-          <img src={leftView} className="leftView col col-3" alt="boatLeftView" />
-          
-          <div className="screen col col-6">
-            <br></br>
-            <div className='textBox'>
-            <h2>Flotte Navale</h2>
-            <br></br>
-            {/* <div className="screen"> */}
-            <Flotte />
-            {/* </div>        */}
+        <img src={leftView} className="leftView col col-3" alt="boatLeftView" />
+        
+        <div className='view col col-6'>
+            <div className="screen">
+                  <br></br>
+                  <div className='textBox'>
+                      <h2>Flotte Navale</h2>
+                      <br></br>
+                      {/* <div className="screen"> */}
+                      <Flotte />
+                      {/* </div>        */}
+                  </div>
+              <div className="textBox">
+                <p> Boite de Conversation: Écrire les messages ici! </p>
+              </div>
+            
+              <br></br>
+              <br></br>
             </div>
-            <br></br>
-            <br></br>
-          </div>
+          <div>
+                <img src={wheel} className="wheel col col-6" alt="Wheel" />
+                <img src={speed} className="speed col col-6" alt="SpeedHandle" />
 
+          </div>  
 
+        </div>
+        <img src={rightView} className="rightView col col-3" alt="boatRightView" />
 
-          <div className="row">
-              <img src={wheel} className="wheel col col-6" alt="Wheel" />
-              {/* <div className="chatBox col col-8">
-              <p> Boite de Conversation: Écrire les messages ici! </p>
-              </div> */}
-              <img src={speed} className="speed col col-6" alt="SpeedHandle" />
-            </div>
-          <img src={rightView} className="rightView col col-3" alt="boatRightView" />
-      
       </div>
-
+      
       <br></br>
       <br></br>
 
