@@ -5,8 +5,8 @@ import "../Menu.css";
 export default function Menu() {
   return (
     <>
-      <nav>
-        <div className="container">
+      <nav className="container">
+        <div>
           <div col col-3></div>
           <div className="screen col col-6">
             <h1 className="textBox">Capitaine #username</h1>
