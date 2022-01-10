@@ -20,10 +20,7 @@ body {
   border-width: 3px;
   border-color: #00ff00;
   margin: 10px;
-}
-
-.click {
-  border: 3px solid pink  !important;
+  padding: 3px;
 }
 
 .container {

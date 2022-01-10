@@ -18,7 +18,9 @@ function Jeu() {
     //CONTAINER
     <div className="container"> 
       <br></br>
-      <h1>Bataille navale</h1>
+      <div className='screen'>
+      <h1 className='textBox'>Bataille navale</h1>
+      </div>
       <br></br>
       <div className="row ">
           <div className="screen col col-3">

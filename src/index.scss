@@ -41,17 +41,18 @@ h2,h3, ul {
   border-width: $myTextBoxWidth;
   border-color: $myRadarGreen;
   margin: $myTextBoxMargin;
+  padding: 3px;
 }
 
 
-.click {
-  border:3px solid pink  !important;
-  // color: #00ff00 ;
-  // background-color: black;
+// .click {
+//   border:3px solid pink  !important;
+//   // color: #00ff00 ;
+//   // background-color: black;
 
-  // border-style: solid;
-  // border-width: 3px;
-}
+//   // border-style: solid;
+//   // border-width: 3px;
+// }
 
 .container {
   // background-color: gold;
