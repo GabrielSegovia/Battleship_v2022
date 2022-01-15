@@ -6,6 +6,10 @@
   border-color: #00ff00;
 }
 
+.marina {
+  width: 30px;
+}
+
 .App {
   padding: 25px;
   display: -webkit-box;

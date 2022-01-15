@@ -6,13 +6,13 @@ import React, { useState } from "react";
 import { useDrag, useDrop } from "react-dnd";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import porteAvion from'../porteAvion.png';
+// import porteAvion from'./porteAvion.png';
 
 function Card({ isDragging, color }) {
   const [{ opacity }, dragRef] = useDrag(
     () => ({
       type: "CARD",
-      item: { porteAvion },
+      // item: { porteAvion },
       // item: <img src={porteAvion} className="none" alt="Porte Avion" />,
       item: { color },
       collect: (monitor) => ({
@@ -25,12 +25,11 @@ function Card({ isDragging, color }) {
   return (
     <div
       ref={dragRef}
-      style={{ opacity }}
-      // style={{ opacity, backgroundColor: color }}
+      style={{ opacity, backgroundColor: color }}
       className={"Card"}
     >
-      <img src={porteAvion} className="marina" alt="porteAvion" />
-      {/* {color}  */}
+      {/* <img src={porteAvion} className="marina" alt="boatLeftView" /> */}
+      {color} 
       {/*écrire couleur dans la casse*/}
       
     </div>
@@ -106,10 +105,7 @@ function Board({ squares }) {
         {/* <img src={porteAvion} className="marina" alt="boatLeftView" /> */}
         {/* <Card isDragging {porteAvion}/> */}
         {/* <Card isDragging src={porteAvion} /> */}
-        <Card isDragging img src={porteAvion} className="marina" alt="boatLeftView" />
-        <Card isDragging color={porteAvion} />
-        <Card isDragging src={porteAvion} className="marina" alt="porteAvion" />
-        <Card isDragging item={porteAvion} className="marina" alt="porteAvion" />
+        {/* <Card isDragging img src={porteAvion} className="marina" alt="boatLeftView" /> */}
         <Card isDragging color="red" />
         <Card isDragging color="#59FAF5" />
 

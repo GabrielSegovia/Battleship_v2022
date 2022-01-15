@@ -29,6 +29,8 @@ function App() {
           <Route path="/jeu" element={<Jeu />} /> 
           <Route path="/login" element={<Login />} /> 
           <Route path="/" element={<Accueil />} /> 
+
+
         </Routes>
         
       </BrowserRouter>

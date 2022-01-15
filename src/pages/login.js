@@ -9,6 +9,8 @@ function Login() {
     <AuthContext.Provider value={[auth, setAuth] }>
       <div>
         <Auth/>
+        <br></br>
+        
       </div>
     </AuthContext.Provider>
   );
