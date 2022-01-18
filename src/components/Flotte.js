@@ -38,6 +38,7 @@ function Card({ isDragging, color }) {
   );
 }
 
+//ou mettre les images?
 function Square({ position, onDrop, color, stateCouleur }) {
   const [mesClasses, setClasses] = useState("Square");
   const [{ isOver, canDrop }, drop] = useDrop(
@@ -96,6 +97,8 @@ function MonBoard() {
   return <div className="App">{<Board squares={arraySquare} />}</div>;
 }
 
+
+
 function Board({ squares }) {
   return (
     <DndProvider backend={HTML5Backend}>
@@ -106,7 +109,7 @@ function Board({ squares }) {
         {/* <img src={porteAvion} className="marina" alt="boatLeftView" /> */}
         {/* <Card isDragging {porteAvion}/> */}
         {/* <Card isDragging src={porteAvion} /> */}
-        <Card isDragging img src={porteAvion} className="marina" alt="boatLeftView" />
+        <Card isDragging img src={porteAvion} className="marina" alt="porteAvion" />
         <Card isDragging color={porteAvion} />
         <Card isDragging src={porteAvion} className="marina" alt="porteAvion" />
         <Card isDragging item={porteAvion} className="marina" alt="porteAvion" />

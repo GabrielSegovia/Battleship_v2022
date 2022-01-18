@@ -35,8 +35,6 @@ export default function Auth() {
         setStateFct(event.target.value);
     }
     
-    
-    
     return (
         <div className="screen col col-8">
             <div className="textBox">
@@ -45,14 +43,17 @@ export default function Auth() {
             <input 
                 style={errStyle} 
                 type="text" value={username} 
-                onChange={(event) => onInputChange(event, setUsername)}>
+                onChange={(event) => onInputchange(event, setUsername)}>
             </input>
             
             <br></br>
             <br></br>
             
             <h3>Mot de passe</h3>
-            <input style={errStyle} type="password" value={password} onChange={(event) => onInputChange(event, setPassword)}></input>
+            <input style={errStyle} type="password" value={password} 
+            onChange={(event) => onInputchange(event, setPassword)}>
+                
+            </input>
             <br></br>
             <br></br>
             {/* {valeurDuContext.isAuth ? 
