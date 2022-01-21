@@ -10,7 +10,9 @@ export default function Accueil () {
 
             <br></br>
             <div className="textboxaccueil">                
-                <div className="h1Accueil"><h1>Jouer Maintenant!</h1></div>
+                <div className="h1Accueil">
+                    <h1>Jouer Maintenant!</h1>
+                </div>
             </div>
             <br></br>
             <br></br>
@@ -34,6 +36,7 @@ export default function Accueil () {
             <br></br>
             <br></br>
         </div>
+        <br></br>
         </div>
     )
 
