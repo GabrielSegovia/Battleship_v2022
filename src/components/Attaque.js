@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import ReactExplode from ".components/explosion.js";
 // import ReactExplode from "./explosion.js";
 import "../Attaque.css";
 
@@ -18,7 +19,7 @@ function Game() {
   //la function on click n'est pas pareil du complet a cette version
   
   // function onClickSquare() {
-  //   {ReactExplode}
+  //   <ReactExplode/>
   // }
 
   function onClickSquare(position) {

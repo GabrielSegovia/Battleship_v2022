@@ -3,7 +3,8 @@ import "../index.css";
 import React, {Component} from "react";
 import Explosion from "react-explode/Explosion1";
 
-class ReactExplode extends Component {
+class ReactExplode extends React.Component {
+// class ReactExplode extends Component {
        render() {         
          return (             
          <Explosion 
