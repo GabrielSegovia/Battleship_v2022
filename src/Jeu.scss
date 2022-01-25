@@ -10,8 +10,7 @@
 }
 
 .rightView,
-.leftView,
-.frontView {
+.leftView {
   /* width:128px; */
   /* height:800px; */
   // color: #00ff00 ;
@@ -24,3 +23,11 @@
   /* height: 100%; */
 }
 
+.frontView {
+  border-color: $myScreenGrey;
+  border-style: $myScreenBorderStyle;
+  border-width: $myScreenBorderWidth;
+  padding: 0%;
+  height: 20%;
+  width: 100%;
+}

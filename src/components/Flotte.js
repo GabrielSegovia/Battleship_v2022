@@ -51,6 +51,7 @@ function Square({ position, onDrop, color, stateCouleur }) {
       }),
     }),
     [stateCouleur]
+    //bateau ici
   );
 
   return (

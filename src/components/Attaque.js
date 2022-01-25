@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+// import ReactExplode from "./explosion.js";
 import "../Attaque.css";
+
 
 function Square({ value, click }) {
   return (
@@ -14,6 +16,11 @@ function Game() {
   const [isXNext, setIsXNext] = useState(true);
   const nextSymbole = isXNext ? "X" : "O";
   //la function on click n'est pas pareil du complet a cette version
+  
+  // function onClickSquare() {
+  //   {ReactExplode}
+  // }
+
   function onClickSquare(position) {
     let maCopie = squares.slice();
 

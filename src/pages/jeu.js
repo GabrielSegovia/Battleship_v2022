@@ -1,6 +1,6 @@
 import Flotte from '../components/Flotte.js';
 import Attaque from '../components/Attaque.js';
-import Apropos from '../pages/apropos.js';
+// import Explosion from '../components/explosion.js';
 import Message from '../components/Message.js';
 
 import React from "react";
@@ -35,6 +35,7 @@ function Jeu() {
 
           <div className="screen col col-3">
             <Attaque />
+
           </div>
       </div>
 
