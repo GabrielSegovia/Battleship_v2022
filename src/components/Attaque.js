@@ -29,11 +29,11 @@ function Game() {
   }
 
   return (
+    <div className="textBox">
     <div className="game">
-      <br></br>
       <h3>Attaque</h3>
       <br></br>
-      <div className="">
+      <div>
         <div className="game-board">
           <div className="board-row">
             {fabriqueSquare(0)}
@@ -157,6 +157,7 @@ function Game() {
           </div>
           <br></br>
         </div>
+      </div>
       </div>
     </div>
   );

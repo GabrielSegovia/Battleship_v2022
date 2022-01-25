@@ -38,7 +38,7 @@ export default function Menu() {
                 {/* </li> */}
                 <div className="screen">
                   <div className="textBox">
-                    <Link to="drcre8ion.com">À propos</Link>
+                    <Link to="/apropos">À propos</Link>
                   </div>
                 </div>
               </ul>

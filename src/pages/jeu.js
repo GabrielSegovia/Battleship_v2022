@@ -1,5 +1,7 @@
 import Flotte from '../components/Flotte.js';
 import Attaque from '../components/Attaque.js';
+import Apropos from '../pages/apropos.js';
+import Message from '../components/Message.js';
 
 import React from "react";
 import frontView from'../frontView.jpg';
@@ -25,19 +27,7 @@ function Jeu() {
       <div className="row ">
           <div className="screen col col-3">
             <br></br>
-
-                <h3>Messages</h3>
-                <br></br>
-                <p className="messagesBoard">
-                  Les messages du chat ici.
-                </p>
-                {/* <div className="chatBox col col-8"> */}
-                <p className="messagesBoard">
-                  Votre message ici! 
-                </p>
-                {/* </div> */}
-
-
+            <Message />
           </div>
           
           <img src={frontView} className="frontView col col-6" alt="boatFrontView" />
@@ -56,7 +46,7 @@ function Jeu() {
         
         <div className='view col col-6'>
             <div className="screen">
-                  <br></br>
+                  {/* <br></br> */}
                   <div className='textBox'>
                       <h2>Flotte Navale</h2>
                       <br></br>
@@ -64,12 +54,12 @@ function Jeu() {
                       <Flotte />
                       {/* </div>        */}
                   </div>
-              <div className="textBox">
+              {/* <div className="textBox">
                 <p> Boite de Conversation: Écrire les messages ici! </p>
-              </div>
+              </div> */}
             
-              <br></br>
-              <br></br>
+              {/* <br></br>
+              <br></br> */}
             </div>
           <div>
                 <img src={wheel} className="wheel col col-6" alt="Wheel" />

@@ -24,9 +24,9 @@
 }
 
 .textboxaccueil {
-  opacity:0.5;
-  background-color: white;
-
+  // opacity:0.5;
+  // background-color: white;
+  // width: 80%;
   border-style: $myTextBoxStyle;
   border-width: $myTextBoxWidth;
   border-color: $myRadarGreen;
@@ -35,6 +35,9 @@
 
 .h1Accueil {
   color: $myRadarGreen;
-  opacity: 1;
-  background-color: yellow;
+  // width: 80%;
+    // padding: 0%;
+  // margin: auto ;
+  // opacity: 1;
+  // background-color: yellow;
 }

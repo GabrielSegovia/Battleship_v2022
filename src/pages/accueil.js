@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import "../Accueil.css";
 
 
@@ -9,33 +10,38 @@ export default function Accueil () {
             <br></br>
 
             <br></br>
-            <div className="textboxaccueil">                
-                <div className="h1Accueil">
-                    <h1>Jouer Maintenant!</h1>
+            <div col col-3></div>
+            <div className="screen col col-6">
+                  <div className="textboxaccueil">
+                    <Link to="/login">Naviguer ici!</Link>
+                  </div>
                 </div>
-            </div>
-            <br></br>
             <br></br>
             <br></br>
             <br></br>
 
+            <div col col-3></div>
+            <div className="screen col col-6">
             <div className="textboxaccueil">
                 <br></br>
+
+                <h3>Bienvenue Capitaine</h3>
                 <br></br>
-                <br></br>
-                <h3>Règles du jeu</h3>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <p>Les messages du chat ici.</p>
+
+                <p> Soyez prêt a conquérir les oceans avec votre flotte personnel dans cette nouvelle version exclusive de Battleship.
+                </p>
+                <p> Pour jouer, vous devez être connecter à votre compte, ensuite dans la page "jouer", vous allez à la section "Flotte navale" vous pouvez placer les bateaux et sous-marins à votre disposition. 
+                </p>
+                <p> Ensuite, dans l'écran attaque, vous pouvez cliquer sur l'écran pour lancer des missilles à la flotte ennemi dans le radar. 
+                </p>
             
+            </div>
             </div>
             <br></br>
             <br></br>
             <br></br>
         </div>
+
         <br></br>
         </div>
     )
