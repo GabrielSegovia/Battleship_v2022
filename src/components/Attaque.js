@@ -2,12 +2,14 @@ import React, { useState } from "react";
 // import ReactExplode from ".components/explosion.js";
 // import ReactExplode from "./explosion.js";
 import "../Attaque.css";
+// import Water from "./component/water.js";
 
 
 function Square({ value, click }) {
   return (
     <div className="board-square" onClick={click}>
       {value}
+      {/* {Water} */}
     </div>
   );
 }
