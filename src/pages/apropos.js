@@ -24,7 +24,9 @@ function Apropos() {
           dans le monde de l'internet et de la programmation en apportant une petite touche d'inspiration dans les travaux de groupe et la communauté des internautes.
           </p>
 
-        <a href="https://github.com/GabrielSegovia/Battleship_v2022.git"> GitHub BattleShip </a>
+        <a href="https://Gabriel-SF.com"> Gabriel-SF </a>
+        <br></br>
+        <a href="https://mediacybersimple.com"> Media Cyber Simple </a>
       </div>
       </div>
       <br></br>
