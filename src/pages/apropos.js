@@ -24,9 +24,13 @@ function Apropos() {
           dans le monde de l'internet et de la programmation en apportant une petite touche d'inspiration dans les travaux de groupe et la communauté des internautes.
           </p>
 
-        <a href="https://Gabriel-SF.com"> Gabriel-SF </a>
+        <a href="https://linktr.ee/gabriel_sf"> Gabriel-SF </a>
+        {/* <br></br>
+        <a href="https://gabriel-sf.com/"> Gabriel-SF </a> */}
         <br></br>
-        <a href="https://mediacybersimple.com"> Media Cyber Simple </a>
+        <a href="https://simplecybermedia.com/fr/accueil/"> Media Cyber Simple </a>
+        {/* <br></br>
+        <a href="https://mediacybersimple.com/"> Media Cyber Simple </a> */}
       </div>
       </div>
       <br></br>
