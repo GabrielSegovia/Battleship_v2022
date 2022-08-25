@@ -11,7 +11,7 @@ function Apropos() {
       <div className='screen'>
         <div className='textBox'>
         <h1>Gabriel Segovia-Fuentes</h1>
-        <h2>À propos du dévellopeur</h2>
+        <h2>À propos du dévelopeur</h2>
         <p>(Programmeur depuis 2021 mais createur de site web avec d'autres plateformes depuis 2017,
           
           la réalisation de projet à 
